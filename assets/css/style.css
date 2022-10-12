@@ -7,7 +7,7 @@
 .homepage .card-image {
 	min-height: 100% !important;
 	min-width: 100% !important;
-    width: fit-content !important;
+    widths: fit-content !important;
 }
 
 .bg-gradient-dark {
