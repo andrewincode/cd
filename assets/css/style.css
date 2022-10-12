@@ -1,11 +1,11 @@
 /* Styles */
 
-.homepage .navbar-brand.h1 {
+.homepage .navbar-brand.h1 span.site-name {
 	font-size: 48px !important;
 	line-height: 36px !important;
 	font-family: 'Permanent Marker', serif;
 }
-.homepage .navbar-brand.h1 span {
+.homepage .navbar-brand.h1 span.site-tagline {
 	font-size: 21px !important;
 	font-family: var(--bs-body-font-family);
 }
