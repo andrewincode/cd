@@ -20,11 +20,16 @@
 	line-height: 36px !important;
 	font-family: var(--bs-body-font-family);
 }
-.homepage .card-image {
+.homepage #main-card .card-image {
 	min-height: 100% !important;
 	/* min-width: 100% !important; */
     width: fit-content !important;
     max-height: 100%;
+}
+.row.height-for-3 .col {
+	min-height: 33% !important;
+	height: 33% !important;
+	max-height: 33% !important;
 }
 .fix-gap {
 	margin-right: -3px;
@@ -36,3 +41,42 @@
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
+
+/* TEMP */
+.card-img-overlay .col-lg-3 {
+	background-color: #fff;
+}
+
+/********************
+ * MEDIA QUERIES
+ ********************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+/* sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
