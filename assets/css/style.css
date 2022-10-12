@@ -11,7 +11,7 @@
 }
 .homepage .card-image {
 	min-height: 100% !important;
-	min-width: 100% !important;
+	/* min-width: 100% !important; */
     width: fit-content !important;
     max-height: 100%;
 }

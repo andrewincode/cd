@@ -17,7 +17,10 @@
     <main class="flex-shrink-0 vh-100 fix-gap">
       <div class="container-fluid g-0">
         <div class="card vh-100 overflow-hidden">
-          <img class="card-image position-absolute bottom-0 end-0" src="assets/images/homepage-portrait.png" alt="Corey Dawkins" />
+          <picture>
+            <img src="assets/images/homepage-portrait.png" class="card-image position-absolute bottom-0 end-0 d-sm-block d-lg-none" alt="Corey Dawkins">
+            <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block" alt="Corey Dawkins">
+          </picture>
           <div class="card-img-overlay bg-gradient-dark">
             <div class="container-fluid">
               <div class="row">
@@ -30,7 +33,7 @@
                     <div class="d-grid gap-2">
                       <a href="#" type="button" class="btn btn-outline-light btn-lg text-uppercase"><strong>hire</strong></a>
                       <a href="#" ype="button" class="btn btn-outline-light btn-lg text-uppercase"><strong>shop</strong></a>
-                      <a href="#" type="button" class="btn btn-outline-light btn-lg text-uppercase mb-5"><strong>experience</strong></a>
+                      <a href="#" type="button" class="btn btn-outline-light btn-lg text-uppercase mb-4"><strong>experience</strong></a>
                     </div>
                   </nav>
                 </div>
