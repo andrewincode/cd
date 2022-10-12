@@ -1,8 +1,8 @@
 /* TEAM */
 
-Developer: Andrew St. Bernard.
-Contact: andrew.st.bernard@gmail.
-Location: Toronto, Ontario, Canada.
+Developer: Andrew St. Bernard
+Contact: andrew.st.bernard @ gmail
+Location: Toronto, Ontario, Canada
                             
 /* SITE */
                             
