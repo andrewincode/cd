@@ -1,0 +1,14 @@
+/* TEAM */
+
+Developer: Andrew St. Bernard.
+Contact: andrew.st.bernard@gmail.
+Location: Toronto, Ontario, Canada.
+                            
+/* SITE */
+                            
+Last update: 2022/10/22     
+Standards: HTML5, CSS3, Javascript ES6, WCAG 2.1 AA, AODA, ARIA
+Framework: React
+Platform: Ghost
+Components: Bootstrap 5.2, Moderniz, jQuery, React
+Software: Sublime Text, GitHub
