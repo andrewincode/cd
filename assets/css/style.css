@@ -7,6 +7,10 @@
 	font-size: 24px !important;
 	line-height: 24px !important;
 }
+.homepage .navbar.fixed-top .navbar-brand span.site-tagline::before {
+  content: "| ";
+  opacity: 30%;
+}
 .homepage .navbar-brand.h1 span.site-name {
 	font-size: 48px !important;
 	line-height: 36px !important;
