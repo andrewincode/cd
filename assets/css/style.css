@@ -1,9 +1,15 @@
 /* Styles */
 
+.homepage .navbar-brand span.site-name {
+	font-family: 'Permanent Marker', serif;
+}
+.homepage .navbar.fixed-top .navbar-brand span.site-name {
+	font-size: 24px !important;
+	line-height: 24px !important;
+}
 .homepage .navbar-brand.h1 span.site-name {
 	font-size: 48px !important;
 	line-height: 36px !important;
-	font-family: 'Permanent Marker', serif;
 }
 .homepage .navbar-brand.h1 span.site-tagline {
 	font-size: 21px !important;
