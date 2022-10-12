@@ -7,6 +7,7 @@
 }
 .homepage .navbar-brand.h1 span.site-tagline {
 	font-size: 21px !important;
+	line-height: 36px !important;
 	font-family: var(--bs-body-font-family);
 }
 .homepage .card-image {
