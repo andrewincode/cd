@@ -2,7 +2,12 @@
 
 .homepage .navbar-brand.h1 {
 	font-size: 48px !important;
+	line-height: 36px !important;
 	font-family: 'Permanent Marker', serif;
+}
+.homepage .navbar-brand.h1 span {
+	font-size: 21px !important;
+	font-family: var(--bs-body-font-family);
 }
 .homepage .card-image {
 	min-height: 100% !important;
