@@ -15,7 +15,10 @@
     width: fit-content !important;
     max-height: 100%;
 }
-
+.fix-gap {
+	margin-right: -3px;
+	margin-left: -3px;
+}
 .bg-gradient-dark {
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
