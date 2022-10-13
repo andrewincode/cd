@@ -26,10 +26,11 @@
     width: fit-content !important;
     max-height: 100%;
 }
-.row.height-for-3 .col {
-	min-height: 33% !important;
-	height: 33% !important;
-	max-height: 33% !important;
+.homepage #content .card-large .card-image {
+	height: 60vh !important;
+}
+.homepage #content .card {
+	border: none;
 }
 .fix-gap {
 	margin-right: -3px;
