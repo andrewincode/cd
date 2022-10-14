@@ -1,5 +1,45 @@
 /* Styles */
 
+.tiny { font-size: 0.66em !important; }
+#summary .card-title {
+	border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+}
+#summary .d-flex {
+	max-height: 212px !important;
+}
+form.form-clean input {
+	border: none;
+	border-left: 1px solid lightgrey;
+}
+form.form-clean input:focus,
+form.form-clean textarea:focus {
+	background: #d7f0ff !important;
+	outline: none !important;
+  border-color: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.social-icons .btn {
+  opacity: 60%;
+	height: 64px;
+}
+.social-icons .btn img {
+  max-width: 123px !important;
+  max-height: 54px !important;
+}
+.social-icons .btn:hover {
+  opacity: 100%;
+}
+.social-icons .instagram { width: 60%; }
+.social-icons .facebook { width: 60%; }
+.social-icons .twitter { width: 60%; }
+.social-icons .email { width: 21px; }
+.social-icons .youtube { width: 60%; }
+.social-icons .bandcamp { width: 75%; }
+.social-icons .soundcloud { width: 88%; }
+.social-icons .mixcloud { width: 66%; }
+
 .homepage .navbar-brand span.site-name {
 	font-family: 'Permanent Marker', serif;
 }
@@ -22,9 +62,9 @@
 }
 .homepage #main-card .card-image {
 	min-height: 100% !important;
-	/* min-width: 100% !important; */
-    width: fit-content !important;
-    max-height: 100%;
+	min-width: 100% !important;
+  width: fit-content !important;
+  max-height: 100%;
 }
 .homepage #content .card-large .card-image {
 	height: 60vh !important;
@@ -42,11 +82,20 @@
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
+#upcoming-events .card-image {
+	height: 366px;
+	width: 100%;
+	overflow: hidden;
+}
+#upcoming-events .card-image img {
+	min-width: 100%;
+	max-width: 100%;
+}
+#upcoming-events .event-details .card-text {
+	margin: 0 !important;
+}
 
 /* TEMP */
-.card-img-overlay .col-lg-3 {
-	background-color: #fff;
-}
 
 /********************
  * MEDIA QUERIES
@@ -56,10 +105,20 @@
 @media (min-width: 576px) { ... }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+	.bg-gradient-lg-none {
+	  background: none !important;
+    filter: none !important;
+  }
+	.bg-lg-dark {
+		--bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+	}
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }

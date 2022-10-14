@@ -12,13 +12,13 @@
   <body class="homepage d-flex flex-column vh-100 overflow-hidden m-0">
     <!-- start Header, not visible on mobile homepage -->
     <header class="d-none d-md-block">
-      <nav class="navbar navbar-expand-md fixed-top mx-lg-5 mt-2">
+      <nav class="navbar navbar-expand-md fixed-top mx-lg-3 mt-2">
         <div class="container-fluid">
-          <div class="navbar-brand text-light d-sm-block d-lg-none">
+          <div class="navbar-brand text-light d-sm-block d-md-none">
             <span class="site-name">Corey Dawkins</span>
             <span class="site-tagline ms-2">Toronto DJ &amp; Producer</span>
           </div>
-          <div class="navbar-brand text-dark d-none d-md-block ">
+          <div class="navbar-brand text-dark d-none d-md-block">
             <span class="site-name">Corey Dawkins</span>
             <span class="site-tagline ms-2">Toronto DJ &amp; Producer</span>
           </div>
@@ -33,16 +33,146 @@
             <img src="assets/images/homepage-portrait.png" class="card-image position-absolute bottom-0 end-0 d-sm-block d-lg-none" alt="Corey Dawkins">
             <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0" alt="Corey Dawkins">
           </picture>
-          <div class="card-img-overlay bg-gradient-dark">
+          <div class="card-img-overlay bg-gradient-dark bg-gradient-lg-none">
             <div class="container-fluid">
-              <div id="content" class="row d-none d-md-block mt-5">
-                <div class="col-lg-12">
-                  <div class="row height-for-3 g-0 d-flex" data-masonry='{"percentPosition": true }'>
-                    <div class="col col-lg-6">
+              <div id="content" class="d-none d-lg-block mt-5">
+                <div class="row row-cols-2 g-3">
+                  <div class="col d-flex">
+                    <div class="card">
+                      <div class="card-image h-100 overflow-hidden"><img src="assets/images/homepage-landscape.png" alt="" class="w-100 h-100 rounded" /></div>
+                      <div class="card-img-overlay">
+                        <div class="row height-for-3 g-2 d-flex" data-masonry='{"percentPosition": true }'>
+                          <div class="col col-lg-6">
+                          </div>
+                          <div class="col col-lg-3">
+                          </div>
+                          <div class="col col-lg-3">
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col col-lg-3">
+                  </div>
+                  <div class="col d-flex">
+                    <div id="upcoming-events" class="card">
+                      <div class="row row-cols-3 g-3">
+                        <div class="col d-flex">
+                          <div class="card border">
+                            <div class="card-image"><img src="assets/images/oct15.jpeg" alt="" class="" /></div>
+                            <div class="card-body event-details">
+                              <p class="card-text card-venue small"><strong>Radius</strong>, <em>Hamilton</em></p>
+                              <p class="card-text card-date small">
+                                Saturday, October 15, 2022
+                              </p>
+                            </div>
+                            <div class="card-footer"></div>
+                          </div>
+                        </div>
+                        <div class="col d-flex">
+                          <div class="card border">
+                            <div class="card-image"><img src="assets/images/oct21.jpeg" alt="" class="" /></div>
+                            <div class="card-body event-details">
+                              <p class="card-text card-venue small"><strong>Nome Izakaya</strong>, <em>Toronto</em></p>
+                              <p class="card-text card-date small">
+                                Friday, October 21, 2022
+                              </p>
+                            </div>
+                            <div class="card-footer"></div>
+                          </div>
+                        </div>
+                        <div class="col d-flex">
+                          <div class="card border">
+                            <div class="card-image"><img src="assets/images/oct22.jpeg" alt="" class="" /></div>
+                            <div class="card-body event-details">
+                              <p class="card-text card-venue small"><strong>3030</strong>, <em>Toronto</em></p>
+                              <p class="card-text card-date small">
+                                Saturday, October 22, 2022
+                              </p>
+                            </div>
+                            <div class="card-footer"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col col-lg-3">
+                  </div>
+                  <div class="col col-lg-12">
+                    <div id="summary" class="card border-0">
+                      <div class="card-body p-0">
+                        <div class="row row-cols-3 g-3">
+                          <div class="col d-flex">
+                            <div class="card border-0 bg-light">
+                              <div class="row g-0">
+                                <div class="col-md-3">
+                                  <img src="assets/images/profile.png" alt="Corey Dawkins profile photo" class="card-image img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-9">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-uppercase tiny text-muted">About</h5>
+                                    <p class="card-text small">A main fixture in Toronto’s music scene since 1998 as both a DJ and promoter, Corey Dawkin's versatility, passion and knowledge of music has allowed him to become one of Toronto’s finest in hip hop, house, neo-soul and more.</p>
+                                    <a href="experience.html" class="card-text btn btn-sm btn-outline-dark">Learn more about Corey</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col d-flex">
+                            <div class="vr d-none"></div>
+                            <div class="card border-0 bg-light w-100 h-100">
+                              <div class="card-body">
+                                <h5 class="card-title text-uppercase tiny text-muted">Online</h5>
+                                <p class="card-text">
+                                  <div class="btn-group btn-group-lg row d-flex w-100 social-icons m-0" role="group" aria-label="Large button group">
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/instagram.svg" type="button" class="instagram border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/facebook.svg" type="button" class="facebook border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/twitter.svg" type="button" class="twitter border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><span class="position-absolute top-50 start-50 translate-middle tiny text-uppercase w-100"><img src="assets/svg/gmail.svg" type="button" class="email border-0 p-0 me-2" />eMail</span></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/youtube.svg" type="button" class="youtube border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/bandcamp.svg" type="button" class="bandcamp border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/soundcloud.svg" type="button" class="soundcloud border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                    <a href="" target="_blank" class="btn col-3 p-1"><img src="assets/svg/mixcloud.svg" type="button" class="mixcloud border-0 p-0 position-absolute top-50 start-50 translate-middle" /></a>
+                                  </div>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="vr d-none"></div>
+                            <div class="card border-0 bg-light w-100 h-100">
+                              <div class="card-body">
+                                <h5 class="card-title text-uppercase tiny text-muted">Contact <span class="float-end text">416-389-1337</span></h5>
+                                <form class="row g-2 form-clean">
+                                  <div class="col-12">
+                                    <input class="form-control form-control-sm" list="contactReasonOptions" id="contactReason" placeholder="Enter subject*" />
+                                    <datalist id="contactReasonOptions">
+                                      <option value="I require DJ Services" />
+                                      <option value="I require Music Production" />
+                                      <option value="I require Event Promotion" />
+                                      <option value="I'm interested in Collaboration" />
+                                      <option value="I'm a Media Representative" />
+                                      <option value="I have a General Enquiry" />
+                                      <option value="I found an Issue on the Website" />
+                                    </datalist>
+                                  </div>
+                                  <div class="col-6">
+                                    <input class="form-control form-control-sm" id="contactFirstName" placeholder="first name*" />
+                                  </div>
+                                  <div class="col-6">
+                                    <input class="form-control form-control-sm" id="contactLastName" placeholder="last name*" />
+                                  </div>
+                                  <div class="col-6">
+                                    <input class="form-control form-control-sm" id="contactPhone" placeholder="phone number*" />
+                                  </div>
+                                  <div class="col-6">
+                                    <input class="form-control form-control-sm" id="contactEmail" placeholder="email address*" />
+                                  </div>
+                                  <div class="col-12 d-grid">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Continue</button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -67,7 +197,7 @@
         </div>
       </div>
     </main>
-    <footer class="footer mt-auto fixed-bottom bg-md-light px-lg-5">
+    <footer class="footer mt-auto fixed-bottom bg-lg-dark px-2 px-lg-3 pt-3">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
