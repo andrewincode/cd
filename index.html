@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker&text=Corey%20Dawkins">
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
-  <body class="homepage d-flex flex-column vh-100 overflow-hidden m-0">
+  <body class="homepage d-flex flex-column vh-100 m-0">
     <!-- start Header, not visible on mobile homepage -->
     <header class="d-none d-md-block">
       <nav class="navbar navbar-expand-md fixed-top mx-lg-3 mt-2">
@@ -59,7 +59,7 @@
     <!-- end Header, not visible on mobile homepage -->
     <main class="flex-shrink-0 vh-100 fix-gap">
       <div class="container-fluid g-0">
-        <div class="card vh-100 overflow-hidden">
+        <div class="card vh-100">
           <picture id="main-card">
             <img src="assets/images/homepage-portrait.png" class="card-image position-absolute bottom-0 end-0 d-sm-block d-lg-none" alt="Corey Dawkins">
             <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0" alt="Corey Dawkins">
@@ -67,7 +67,7 @@
           <div class="card-img-overlay bg-gradient-dark bg-gradient-lg-none">
             <div class="container-fluid">
               <div id="content" class="d-none d-lg-block mt-5">
-                <div class="row row-cols-2 g-3">
+                <div class="row row-cols-2 g-3 mb-3">
                   <div class="col d-flex">
                     <div class="card">
                       <div class="card-image rounded h-100 overflow-hidden"><img src="assets/images/homepage-landscape.png" alt="" class="w-100 h-100 float-end" /></div>
@@ -80,7 +80,7 @@
                             <a href="" class="btn btn-outline-light w-100">Browse Products</a>
                           </div>
                           <div class="col p-1">
-                            <a href="" class="btn btn-outline-light w-100">Experience Corey</a>
+                            <a href="" class="btn btn-outline-light w-100">Experience the Art</a>
                           </div>
                         </div>
                       </div>
@@ -162,33 +162,39 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row g-3">
                   <div class="col col-lg-12">
-                    <div class="row-cols-4 d-flex w-100 gap-3 me-0">
+                    <div class="row row-cols-4 features d-flex g-3">
                       <div class="col">
                         <div class="card">
-                          <div class="card-header tiny">Watch</div>
+                          <div class="card-header tiny text-uppercase text-muted">Watch: <b>Interviews</b></div>
+                          <div class="card-image">
+                            <img src="assets/images/interview.jpeg" class="card-image w-100" alt="">
+                          </div>
+                          <div class="card-body"></div>
+                          <div class="card-footer"></div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card embed">
+                          <div class="card-header tiny text-uppercase text-muted">Listen: <b>Music</b></div>
+                          <div class="card-image"><img src="assets/images/bandcamp.jpeg" class="w-100"></div>
+                          <div class="card-body p-0">
+                            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=473100011/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://coreydawkins.bandcamp.com/track/the-first-pandemic-corey-dawkins-feat-heronjones">The First Pandemic - Corey Dawkins Feat. heronJones by Corey Dawkins</a></iframe></iframe>
+                          </div>
+                          <div class="card-footer"></div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-header tiny text-uppercase text-muted">Listen: <b>Mixes</b></div>
                           <div class="card-body"></div>
                           <div class="card-footer"></div>
                         </div>
                       </div>
                       <div class="col">
                         <div class="card">
-                          <div class="card-header tiny">Watch</div>
-                          <div class="card-body"></div>
-                          <div class="card-footer"></div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card">
-                          <div class="card-header tiny">Watch</div>
-                          <div class="card-body"></div>
-                          <div class="card-footer"></div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card">
-                          <div class="card-header tiny">Watch</div>
+                          <div class="card-header tiny text-uppercase text-muted">Buy: <b>Apparel</b></div>
                           <div class="card-body"></div>
                           <div class="card-footer"></div>
                         </div>

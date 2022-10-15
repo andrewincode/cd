@@ -2,12 +2,25 @@
 
 .tiny { font-size: 0.66em !important; }
 sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
+.row.features .card .card-image {
+	height: 237px;
+	overflow: hidden;
+}
 .card a {
 	text-decoration: none;
+}
+.card.embed .card-footer {
+	margin-top: -7px;
+}
+.card-body iframe {
+	width: 100% !important;
 }
 .big-buttons-15 .btn {
 	--bs-btn-padding-y: 15px;
 	font-size: 18px;
+}
+#summary.card {
+	margin-bottom: 83px;
 }
 #summary .card-title {
 	border-bottom: 1px solid lightgrey;
