@@ -1,6 +1,10 @@
 /* Styles */
 
 .tiny { font-size: 0.66em !important; }
+sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
+.card a {
+	text-decoration: none;
+}
 #summary .card-title {
 	border-bottom: 1px solid lightgrey;
   padding-bottom: 10px;
@@ -32,7 +36,7 @@ form.form-clean textarea:focus {
   opacity: 100%;
 }
 .social-icons .instagram { width: 60%; }
-.social-icons .facebook { width: 60%; }
+.social-icons .facebook { width: 82%; }
 .social-icons .twitter { width: 60%; }
 .social-icons .email { width: 21px; }
 .social-icons .youtube { width: 60%; }
@@ -83,7 +87,7 @@ form.form-clean textarea:focus {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
 #upcoming-events .card-image {
-	height: 366px;
+	max-height: 365px;
 	width: 100%;
 	overflow: hidden;
 }
@@ -91,9 +95,45 @@ form.form-clean textarea:focus {
 	min-width: 100%;
 	max-width: 100%;
 }
+#upcoming-events .event-details {
+	position: relative;
+}
 #upcoming-events .event-details .card-text {
 	margin: 0 !important;
 }
+#upcoming-events .event-details .card-date {
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	float: right;
+	padding: 6px;
+}
+#upcoming-events .event-details .card-date span {
+	text-transform: uppercase;
+  text-align: right;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.event-weekday {
+  font-size: 9px;
+  line-height: 8px;
+}
+.event-month {
+	font-size: 26px;
+	font-weight: bold;
+  line-height: 23px;
+}
+.event-day {
+	line-height: 32px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.event-year {
+	font-size: 9px;
+	line-height: 15px;
+}
+#upcoming-events .event-details .btn {display: none;}
 
 /* TEMP */
 
