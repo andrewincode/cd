@@ -5,6 +5,10 @@ sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
 .card a {
 	text-decoration: none;
 }
+.big-buttons-15 .btn {
+	--bs-btn-padding-y: 15px;
+	font-size: 18px;
+}
 #summary .card-title {
 	border-bottom: 1px solid lightgrey;
   padding-bottom: 10px;
