@@ -1,10 +1,16 @@
 /* Styles */
 
+html, body { overflow-x: hidden !important; }
+
+.bold { font-weight: bold !important; }
 .tiny { font-size: 0.66em !important; }
 sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
 .row.features .card .card-image {
 	height: 237px;
 	overflow: hidden;
+}
+.d-flex > .col > .card {
+	height: 100% !important;
 }
 .card a {
 	text-decoration: none;
@@ -14,6 +20,16 @@ sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
 }
 .card-body iframe {
 	width: 100% !important;
+}
+.card-image img.img-landscape {
+	min-height: 100% !important;
+	height: 100% !important;
+	max-height: 100% !important;
+}
+.card-image img.img-portrait {
+	min-width: 100% !important;
+	width: 100% !important;
+	max-width: 100% !important;
 }
 .big-buttons-15 .btn {
 	--bs-btn-padding-y: 15px;
@@ -88,7 +104,7 @@ form.form-clean textarea:focus {
   max-height: 100%;
 }
 .homepage #content .card-large .card-image {
-	height: 60vh !important;
+	height: 60vhs !important;
 }
 .homepage #content .card {
 	border: none;
@@ -104,13 +120,11 @@ form.form-clean textarea:focus {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
 #upcoming-events .card-image {
-	max-height: 365px;
+	min-height: 60%;
+	height: 60%;
+	max-height: 60%;
 	width: 100%;
 	overflow: hidden;
-}
-#upcoming-events .card-image img {
-	min-width: 100%;
-	max-width: 100%;
 }
 #upcoming-events .event-details {
 	position: relative;
@@ -167,6 +181,23 @@ form.form-clean textarea:focus {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	.card.vh-100 {
+		height: auto !important;
+	}
+	.navbar {
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+	}
+	.navbar.shadow-sm {
+		background-color: #f5f5f5 !important;
+		border-bottom: 1px solid lightgrey;
+    -webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+    transition: all 3s ease-in;
+	}
 	.bg-gradient-lg-none {
 	  background: none !important;
     filter: none !important;
@@ -184,7 +215,8 @@ form.form-clean textarea:focus {
 @media (min-width: 1400px) { ... }
 
 /* sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+}
 
 /* md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { ... }

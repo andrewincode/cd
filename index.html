@@ -11,8 +11,8 @@
   </head>
   <body class="homepage d-flex flex-column vh-100 m-0">
     <!-- start Header, not visible on mobile homepage -->
-    <header class="d-none d-md-block">
-      <nav class="navbar navbar-expand-md fixed-top mx-lg-3 mt-2">
+    <header class="d-none d-lg-block">
+      <nav class="navbar navbar-expand-sm fixed-top px-lg-3 pt-3 bg-white">
         <div class="container-fluid">
           <div class="navbar-brand text-light d-sm-block d-md-none">
             <span class="site-name">Corey Dawkins</span>
@@ -62,12 +62,12 @@
         <div class="card vh-100">
           <picture id="main-card">
             <img src="assets/images/homepage-portrait.png" class="card-image position-absolute bottom-0 end-0 d-sm-block d-lg-none" alt="Corey Dawkins">
-            <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0" alt="Corey Dawkins">
+            <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0 img-portrait" alt="Corey Dawkins">
           </picture>
           <div class="card-img-overlay bg-gradient-dark bg-gradient-lg-none">
             <div class="container-fluid">
               <div id="content" class="d-none d-lg-block mt-5">
-                <div class="row row-cols-2 g-3 mb-3">
+                <div class="row row-cols-1 row-cols-xl-2 g-3 mb-3">
                   <div class="col d-flex">
                     <div class="card">
                       <div class="card-image rounded h-100 overflow-hidden"><img src="assets/images/homepage-landscape.png" alt="" class="w-100 h-100 float-end" /></div>
@@ -91,7 +91,7 @@
                       <div class="row row-cols-3 g-3">
                         <div class="col d-flex">
                           <div class="card border">
-                            <div class="card-image"><img src="assets/images/oct15.jpeg" alt="" class="" /></div>
+                            <div class="card-image"><img src="assets/images/oct15.jpeg" alt="" class="img-portrait" /></div>
                             <div class="card-body event-details">
                               <p class="card-text card-price h4">$20</p>
                               <p class="card-text card-venue small pt-1">
@@ -108,13 +108,13 @@
                               <a href="#" class="btn btn-sm btn-outline-dark mt-2 w-100 opacity-75">I'm Going!</a>
                             </div>
                             <div class="card-footer tiny">
-                              Visit <a href="#" class="card-link">radius.ca</a>
+                              Visit <a href="#" class="card-link link-dark bold">radius.ca</a>
                             </div>
                           </div>
                         </div>
                         <div class="col d-flex">
                           <div class="card border">
-                            <div class="card-image"><img src="assets/images/oct21.jpeg" alt="" class="" /></div>
+                            <div class="card-image"><img src="assets/images/oct21.jpeg" alt="" class="img-portrait" /></div>
                             <div class="card-body event-details">
                               <p class="card-text card-price h4">no cover</p>
                               <p class="card-text card-venue small pt-1">
@@ -131,13 +131,13 @@
                               <a href="#" class="btn btn-sm btn-outline-dark mt-2 w-100 opacity-75">I'm Going!</a>
                             </div>
                             <div class="card-footer tiny">
-                              Visit <a href="#" class="card-link">nomeizakaya.com</a>
+                              Visit <a href="#" class="card-link link-dark bold">nomeizakaya.com</a>
                             </div>
                           </div>
                         </div>
                         <div class="col d-flex">
                           <div class="card border">
-                            <div class="card-image"><img src="assets/images/oct22.jpeg" alt="" class="" /></div>
+                            <div class="card-image"><img src="assets/images/oct22.jpeg" alt="" class="img-portrait" /></div>
                             <div class="card-body event-details">
                               <p class="card-text card-price h4">no cover</p>
                               <p class="card-text card-venue small pt-1">
@@ -154,7 +154,7 @@
                               <a href="#" class="btn btn-sm btn-outline-dark mt-2 w-100 opacity-75">I'm Going!</a>
                             </div>
                             <div class="card-footer tiny">
-                              Visit <a href="#" class="card-link">3030dundaswest.com</a>
+                              Visit <a href="#" class="card-link link-dark bold">3030dundaswest.com</a>
                             </div>
                           </div>
                         </div>
@@ -168,34 +168,42 @@
                       <div class="col">
                         <div class="card">
                           <div class="card-header tiny text-uppercase text-muted">Watch: <b>Interviews</b></div>
-                          <div class="card-image">
-                            <img src="assets/images/interview.jpeg" class="card-image w-100" alt="">
-                          </div>
-                          <div class="card-body"></div>
+                          <a href="">
+                            <div class="card-image">
+                              <img src="assets/images/interview.jpeg" class="card-image img-landscape" alt="">
+                            </div>
+                            <div class="card-body"></div>
+                          </a>
                           <div class="card-footer"></div>
                         </div>
                       </div>
                       <div class="col">
                         <div class="card embed">
                           <div class="card-header tiny text-uppercase text-muted">Listen: <b>Music</b></div>
-                          <div class="card-image"><img src="assets/images/bandcamp.jpeg" class="w-100"></div>
-                          <div class="card-body p-0">
-                            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=473100011/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://coreydawkins.bandcamp.com/track/the-first-pandemic-corey-dawkins-feat-heronjones">The First Pandemic - Corey Dawkins Feat. heronJones by Corey Dawkins</a></iframe></iframe>
-                          </div>
+                          <a href="">
+                            <div class="card-image"><img src="assets/images/bandcamp.jpeg" class="img-landscape"></div>
+                            <div class="card-body p-0">
+                              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=473100011/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://coreydawkins.bandcamp.com/track/the-first-pandemic-corey-dawkins-feat-heronjones">The First Pandemic - Corey Dawkins Feat. heronJones by Corey Dawkins</a></iframe></iframe>
+                            </div>
+                          </a>
                           <div class="card-footer"></div>
                         </div>
                       </div>
                       <div class="col">
                         <div class="card">
                           <div class="card-header tiny text-uppercase text-muted">Listen: <b>Mixes</b></div>
-                          <div class="card-body"></div>
+                          <a href="">
+                            <div class="card-body"></div>
+                          </a>
                           <div class="card-footer"></div>
                         </div>
                       </div>
                       <div class="col">
                         <div class="card">
                           <div class="card-header tiny text-uppercase text-muted">Buy: <b>Apparel</b></div>
-                          <div class="card-body"></div>
+                          <a href="">
+                            <div class="card-body"></div>
+                          </a>
                           <div class="card-footer"></div>
                         </div>
                       </div>
@@ -318,8 +326,18 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/scripts.js"></script>
     <script type="text/javascript">
+      $(window).scroll(function() {
+        var fromTopPx = 60; // distance to trigger
+        var scrolledFromtop = jQuery(window).scrollTop();
+        if (scrolledFromtop > fromTopPx) {
+          $('.navbar').addClass('shadow-sm');
+        } else {
+          $('.navbar').removeClass('shadow-sm');
+        }
+      });
     </script>
   </body>
 </html>
