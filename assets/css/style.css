@@ -2,7 +2,7 @@
 
 html, body { overflow-x: hidden !important; }
 
-.bold { font-weight: bold !important; }
+.bold, .strong { font-weight: bold !important; }
 .tiny { font-size: 0.66em !important; }
 sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
 .row.features .card .card-image {
