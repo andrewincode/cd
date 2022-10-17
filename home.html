@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <script src="https://cdn.jsdelivr.net/npm/modernizr@3.12.0/lib/cli.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker&text=Corey%20Dawkins">
+    <link href="assets/css/mdc-style.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/new-style.css" rel="stylesheet">
   </head>
-  <body>
-    <header class="pt-2">
+  <body class="mdc-components">
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc--theme-secondary pt-2">
       <nav>
         <div class="container-fluid">
           <div class="row g-0">
@@ -40,11 +42,11 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="mdc-top-app-bar--fixed-adjust">
       <div class="container-fluid">
         <div class="row row-cols-2 g-2">
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-header"></div>
               <div class="card-content"></div>
               <div class="card-body"></div>
@@ -54,7 +56,7 @@
           <div class="col">
             <div class="row row-cols-3 g-2">
               <div class="col">
-                <div class="card">
+                <div class="card mdc-card mdc-card--outlined">
                   <div class="card-header"></div>
                   <div class="card-content"></div>
                   <div class="card-body"></div>
@@ -62,7 +64,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card mdc-card mdc-card--outlined">
                   <div class="card-header"></div>
                   <div class="card-content"></div>
                   <div class="card-body"></div>
@@ -70,7 +72,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card mdc-card mdc-card--outlined">
                   <div class="card-header"></div>
                   <div class="card-content"></div>
                   <div class="card-body"></div>
@@ -82,7 +84,7 @@
         </div>
         <div class="row row-cols-4 g-2 mt-0">
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-header px-2 pt-1 pb-0">
                 <div class="card-title tiny text-uppercase text-muted m-0">Watch: <a href="#" class="text-reset strong">Interviews</a></div>
               </div>
@@ -92,7 +94,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-header px-2 pt-1 pb-0">
                 <div class="card-title tiny text-uppercase text-muted m-0">Listen: <a href="#" class="text-reset strong">Music</a></div>
               </div>
@@ -102,7 +104,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-header px-2 pt-1 pb-0">
                 <div class="card-title tiny text-uppercase text-muted m-0">Listen: <a href="#" class="text-reset strong">Mixes</a></div>
               </div>
@@ -112,7 +114,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-header px-2 pt-1 pb-0">
                 <div class="card-title tiny text-uppercase text-muted m-0">Buy: <a href="#" class="text-reset strong">Apparel</a></div>
               </div>
@@ -124,21 +126,21 @@
         </div>
         <div class="row row-cols-3 g-2 mt-0">
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-body">
                 <h6 class="card-title tiny text-uppercase text-muted">About</h6>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-body">
                 <h6 class="card-title tiny text-uppercase text-muted">Online</h6>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mdc-card mdc-card--outlined">
               <div class="card-body">
                 <h6 class="card-title tiny text-uppercase text-muted">Contact <span class="float-end text">416-389-1337</span></h6>
               </div>
@@ -147,18 +149,18 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="mdc--theme-primary">
       <div class="container-fluid">
-        <div class="row mt-2">
+        <div class="row mt-2 pt-2">
           <div class="col">
-            <p class="small">
+            <p class="small m-0">
               &copy; 2022 Corey Dawkins. All rights reserved.
               <a class="inline-block ms-1 ps-2 border-start text-reset text-decoration-none" href="#">Terms of Use</a>
             </p>
           </div>
           <div class="col">
-            <p class="text-end">
-              <a class="" href="humans.txt"><img src="assets/images/humanstxt-isolated-blank.gif" alt="coreydawkins.ca humans.txt file"></a>
+            <p class="text-end m-0">
+              <a class="" href="humans.txt"><img src="assets/images/humanstxt-transparent-color.png" alt="coreydawkins.ca humans.txt file"></a>
             </p>
           </div>
         </div>
@@ -168,6 +170,7 @@
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="assets/js/mdc-style.js"></script>
     <script src="assets/js/scripts.js"></script>
     <!--
     <script type="text/javascript">

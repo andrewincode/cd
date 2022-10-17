@@ -1,0 +1,266 @@
+.mdc-components p {
+  color: #616161;
+}
+.mdc-component > p {
+  color: #616161;
+}
+.mdc-component__section {
+  background-color: #EEEEEE;
+}
+.mdc-component__containers__primary > p, .mdc-component__containers__secondary > p {
+  color: #616161;
+}
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button,
+.mdc-component__buttons .mdc-component__containers__primary .mdc-fab {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button--plain,
+.mdc-component__buttons .mdc-component__containers__primary .mdc-fab--plain {
+  background-color: transparent;
+  color: #000000;
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button,
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-fab {
+  background-color: #d20000;
+  color: #ffffff;
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button--plain,
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-fab--plain {
+  background-color: transparent;
+  color: #d20000;
+}
+
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button--raised.mdc-ripple-upgraded::before,
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button--raised.mdc-ripple-upgraded::after {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button--plain.mdc-ripple-upgraded::before,
+.mdc-component__buttons .mdc-component__containers__primary .mdc-button--plain.mdc-ripple-upgraded::after {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.mdc-component__buttons .mdc-component__containers__primary .mdc-fab.mdc-ripple-upgraded::after {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.mdc-component__buttons .mdc-component__containers__primary .mdc-fab--plain.mdc-ripple-upgraded::after {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button--raised.mdc-ripple-upgraded::before,
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button--raised.mdc-ripple-upgraded::after {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button--plain.mdc-ripple-upgraded::before,
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-button--plain.mdc-ripple-upgraded::after {
+  background-color: rgba(210, 0, 0, 0.06);
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-fab.mdc-ripple-upgraded::after {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.mdc-component__buttons .mdc-component__containers__secondary .mdc-fab--plain.mdc-ripple-upgraded::after {
+  background-color: rgba(210, 0, 0, 0.16);
+}
+
+.mdc-component__switches .mdc-component__containers__primary .mdc-checkbox__native-control:checked:not(:disabled) ~ .mdc-checkbox__background,
+.mdc-component__switches .mdc-component__containers__primary .mdc-checkbox__native-control:indeterminate:not(:disabled) ~ .mdc-checkbox__background,
+.mdc-component__switches .mdc-component__containers__primary .mdc-radio__native-control:checked+.mdc-radio__background .mdc-radio__inner-circle {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.mdc-component__switches .mdc-component__containers__primary .mdc-switch__native-control:checked~.mdc-switch__background::before,
+.mdc-component__switches .mdc-component__containers__primary .mdc-switch__native-control:checked~.mdc-switch__background .mdc-switch__knob::before,
+.mdc-component__switches .mdc-component__containers__primary .mdc-switch__native-control:checked~.mdc-switch__background .mdc-switch__knob {
+  background-color: #000000;
+}
+
+.mdc-component__switches .mdc-component__containers__primary .mdc-radio__native-control:checked+.mdc-radio__background .mdc-radio__outer-circle {
+  border-color: #000000;
+}
+
+.mdc-component__switches .mdc-component__containers__primary .mdc-checkbox__background::before,
+.mdc-component__switches .mdc-component__containers__primary .mdc-radio__background::before {
+  background-color: #000000;
+}
+
+.mdc-component__switches .mdc-component__containers__secondary .mdc-checkbox__native-control:checked:not(:disabled) ~ .mdc-checkbox__background,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-checkbox__native-control:indeterminate:not(:disabled) ~ .mdc-checkbox__background,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-radio__native-control:checked+.mdc-radio__background .mdc-radio__inner-circle {
+  background-color: #d20000;
+  border-color: #d20000;
+}
+
+.mdc-component__switches .mdc-component__containers__secondary .mdc-switch__native-control:checked~.mdc-switch__background::before,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-switch__native-control:checked~.mdc-switch__background .mdc-switch__knob::before,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-switch__native-control:checked~.mdc-switch__background .mdc-switch__knob {
+  background-color: #d20000;
+}
+
+.mdc-component__switches .mdc-component__containers__secondary .mdc-radio__native-control:checked+.mdc-radio__background .mdc-radio__outer-circle {
+  border-color: #d20000;
+}
+
+.mdc-component__switches .mdc-component__containers__secondary .mdc-checkbox__background::before,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-radio__background::before {
+  background-color: #d20000;
+}
+
+.mdc-component__switches .mdc-component__containers__primary .mdc-checkbox.mdc-ripple-upgraded--unbounded::before,
+.mdc-component__switches .mdc-component__containers__primary .mdc-checkbox.mdc-ripple-upgraded--unbounded::after,
+.mdc-component__switches .mdc-component__containers__primary .mdc-radio.mdc-ripple-upgraded--unbounded::before,
+.mdc-component__switches .mdc-component__containers__primary .mdc-radio.mdc-ripple-upgraded--unbounded::after {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+
+.mdc-component__switches .mdc-component__containers__secondary .mdc-checkbox.mdc-ripple-upgraded--unbounded::before,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-checkbox.mdc-ripple-upgraded--unbounded::after,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-radio.mdc-ripple-upgraded--unbounded::before,
+.mdc-component__switches .mdc-component__containers__secondary .mdc-radio.mdc-ripple-upgraded--unbounded::after {
+  background-color: rgba(210, 0, 0, 0.14);
+}
+
+.mdc-component__cards .mdc-card {
+background-color: #ffffff;
+}
+.mdc-component__cards .mdc-card__subtitle {
+color: #707070;
+}
+.mdc-component__cards .demo-card__avatar {
+background: #bdbdbd;
+}
+.mdc-component__cards .mdc--theme-primary {
+background-color: #000000;
+color: #ffffff;
+}
+
+.mdc-component__cards .mdc--theme-secondary {
+background-color: #d20000;
+color: #ffffff;
+}
+
+.mdc-component__cards .material-image .material-image__background {
+fill: #000000;
+}
+
+.mdc-component__cards .material-image .material-image--shape-circle,
+.mdc-component__cards .material-image .material-image--shape-triangle {
+fill: #000000;
+}
+
+.mdc-component__cards .material-image .material-image--shape-intersection {
+fill: #000000;
+}
+
+.mdc-component__cards .mdc-button--raised.mdc--theme-primary.mdc-ripple-upgraded::after {
+background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mdc-component__cards .mdc-button--raised.mdc--theme-secondary.mdc-ripple-upgraded::after {
+background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mdc-component__menu .mdc-toolbar {
+background-color: #d20000;
+}
+.mdc-component__menu .mdc-backdrop {
+background-color: rgba(0, 0, 0, .50);
+}
+.mdc-component__menu .mdc-list-item.mdc-ripple-upgraded::before,
+.mdc-component__menu .mdc-list-item.mdc-ripple-upgraded::after {
+background-color: rgba(0, 0, 0, 0.06);
+}
+
+.mdc-component__menu .mdc-permanent-drawer .mdc-permanent-drawer--selected::before,
+.mdc-component__menu .mdc-permanent-drawer .mdc-list-item:active::before {
+background-color: #000000;
+}
+.mdc-component__menu .material-image__background {
+fill: #000000;
+}
+
+.mdc-component__menu .material-image--shape-circle,
+.mdc-component__menu .material-image--shape-triangle {
+fill: #000000;
+}
+
+.mdc-component__menu .material-image--shape-intersection {
+fill: #000000;
+}
+.mdc-component__textfield .mdc-textfield--theme-primary .mdc-textfield__label {
+color: #000000;
+}
+
+.mdc-component__textfield .mdc-textfield--theme-primary .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus {
+border-color: #000000;
+}
+
+.mdc-component__textfield .mdc-textfield--theme-secondary .mdc-textfield__label {
+color: #d20000;
+}
+
+.mdc-component__textfield .mdc-textfield--theme-secondary .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus {
+border-color: #d20000;
+}
+
+.mdc-component__toolbar .app-bar {
+background-color: #000000;
+}
+.mdc-component__toolbar .material-icons {
+color: #ffffff;
+}
+.mdc-component__toolbar main {
+background-color: white;
+}
+.mdc--theme-primary {
+background-color: #000000;
+color: #ffffff;
+}
+.mdc--theme-secondary {
+background-color: #d20000;
+color: #ffffff;
+}
+.mdc-component__toolbar .mdc--theme-primary {
+background-color: #000000;
+color: #ffffff;
+}
+
+.mdc-component__toolbar .mdc--theme-secondary {
+background-color: #d20000;
+color: #ffffff;
+}
+
+.mdc-component__toolbar .material-image .material-image__background {
+fill: #980000;
+}
+
+.mdc-component__toolbar .material-image .material-image--shape-circle,
+.mdc-component__toolbar .material-image .material-image--shape-triangle {
+fill: #ff5030;
+}
+
+.mdc-component__toolbar .material-image .material-image--shape-intersection {
+fill: #980000;
+}
+
+.mdc-component__toolbar .mdc-icon-toggle::before,
+.mdc-component__toolbar .mdc-icon-toggle::after {
+background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mdc-component__toolbar .mdc-fab.mdc--theme-primary.mdc-ripple-upgraded::after {
+background-color: rgba(255, 255, 255, 0.16);
+}
+
+.mdc-component__toolbar .mdc-fab.mdc--theme-secondary.mdc-ripple-upgraded::after {
+background-color: rgba(255, 255, 255, 0.16);
+}
+  

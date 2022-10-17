@@ -10,5 +10,5 @@ Last update: 2022/10/22
 Standards: HTML5, CSS3, Javascript ES6, WCAG 2.1 AA, AODA, ARIA
 Framework: ReactJS 18 via NextJS 12
 Platform: Ghost
-Components: Bootstrap 5, Material 14, Modernizer 3, jQuery 3
+Components: Bootstrap 5, Material 3, Modernizer 3, jQuery 3
 Software: Sublime Text, GitHub
