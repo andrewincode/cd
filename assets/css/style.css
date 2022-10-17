@@ -18,18 +18,36 @@ sup.tiny { font-size: 0.36em !important; padding-left: 3px; }
 .card.embed .card-footer {
 	margin-top: -7px;
 }
-.card-body iframe {
-	width: 100% !important;
+.card.embed .card-body {
+	overflow-x: hidden !important;
+}
+.card-body {
+	position: relative;
+}
+.card-body .icon {
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 56px;
 }
 .card-image img.img-landscape {
 	min-height: 100% !important;
+	min-width: 100% !important;
 	height: 100% !important;
 	max-height: 100% !important;
 }
 .card-image img.img-portrait {
 	min-width: 100% !important;
+	min-height: 100% !important;
 	width: 100% !important;
 	max-width: 100% !important;
+}
+.card-image img.img-square {
+	min-height: 100% !important;
+	min-width: 100% !important;
+	height: 100% !important;
+	max-height: 100% !important;
 }
 .big-buttons-15 .btn {
 	--bs-btn-padding-y: 15px;
@@ -77,6 +95,20 @@ form.form-clean textarea:focus {
 .social-icons .soundcloud { width: 88%; }
 .social-icons .mixcloud { width: 66%; }
 
+.navbar {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+.navbar.shadow-sm {
+	background-color: #f5f5f5 !important;
+	border-bottom: 1px solid lightgrey;
+  -webkit-transition: all 3s ease-in;
+  -moz-transition: all 3s ease-in;
+  -o-transition: all 3s ease-in;
+  transition: all 3s ease-in;
+}
 .homepage .navbar-brand span.site-name {
 	font-family: 'Permanent Marker', serif;
 }
@@ -183,20 +215,6 @@ form.form-clean textarea:focus {
 @media (min-width: 992px) {
 	.card.vh-100 {
 		height: auto !important;
-	}
-	.navbar {
-    -webkit-transition: all 3s ease-out;
-    -moz-transition: all 3s ease-out;
-    -o-transition: all 3s ease-out;
-    transition: all 3s ease-out;
-	}
-	.navbar.shadow-sm {
-		background-color: #f5f5f5 !important;
-		border-bottom: 1px solid lightgrey;
-    -webkit-transition: all 3s ease-in;
-    -moz-transition: all 3s ease-in;
-    -o-transition: all 3s ease-in;
-    transition: all 3s ease-in;
 	}
 	.bg-gradient-lg-none {
 	  background: none !important;

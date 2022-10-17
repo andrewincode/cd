@@ -62,15 +62,15 @@
         <div class="card vh-100">
           <picture id="main-card">
             <img src="assets/images/homepage-portrait.png" class="card-image position-absolute bottom-0 end-0 d-sm-block d-lg-none" alt="Corey Dawkins">
-            <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0 img-portrait" alt="Corey Dawkins">
+            <img src="assets/images/homepage-landscape.png" class="card-image position-absolute bottom-0 end-0 d-none d-md-block opacity-0" alt="Corey Dawkins">
           </picture>
           <div class="card-img-overlay bg-gradient-dark bg-gradient-lg-none">
             <div class="container-fluid">
               <div id="content" class="d-none d-lg-block mt-5">
-                <div class="row row-cols-1 row-cols-xl-2 g-3 mb-3">
-                  <div class="col d-flex">
+                <div class="row row-cols-1 row-cols-xl-2 g-3 mb-3 d-flex">
+                  <div class="col">
                     <div class="card">
-                      <div class="card-image rounded h-100 overflow-hidden"><img src="assets/images/homepage-landscape.png" alt="" class="w-100 h-100 float-end" /></div>
+                      <div class="card-image rounded h-100 overflow-hidden"><img src="assets/images/homepage-landscape.png" alt="" class="img-landscape float-end" /></div>
                       <div class="card-img-overlay">
                         <div class="row row-cols-3 position-absolute bottom-0 start-50 translate-middle-x w-100 pb-3 big-buttons-15 ps-1">
                           <div class="col p-1 ps-4">
@@ -167,23 +167,13 @@
                     <div class="row row-cols-4 features d-flex g-3">
                       <div class="col">
                         <div class="card">
-                          <div class="card-header tiny text-uppercase text-muted">Watch: <b>Interviews</b></div>
+                          <div class="card-header tiny text-uppercase text-muted pb-1">Watch: <b>Interviews</b></div>
                           <a href="">
                             <div class="card-image">
-                              <img src="assets/images/interview.jpeg" class="card-image img-landscape" alt="">
+                              <img src="assets/images/interview.jpeg" class="img-landscape" alt="">
                             </div>
-                            <div class="card-body"></div>
-                          </a>
-                          <div class="card-footer"></div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card embed">
-                          <div class="card-header tiny text-uppercase text-muted">Listen: <b>Music</b></div>
-                          <a href="">
-                            <div class="card-image"><img src="assets/images/bandcamp.jpeg" class="img-landscape"></div>
-                            <div class="card-body p-0">
-                              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=473100011/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://coreydawkins.bandcamp.com/track/the-first-pandemic-corey-dawkins-feat-heronjones">The First Pandemic - Corey Dawkins Feat. heronJones by Corey Dawkins</a></iframe></iframe>
+                            <div class="card-body">
+                              <img src="assets/svg/youtube.svg" class="icon" />
                             </div>
                           </a>
                           <div class="card-footer"></div>
@@ -191,17 +181,35 @@
                       </div>
                       <div class="col">
                         <div class="card">
-                          <div class="card-header tiny text-uppercase text-muted">Listen: <b>Mixes</b></div>
+                          <div class="card-header tiny text-uppercase text-muted pb-1">Listen: <b>Music</b></div>
                           <a href="">
-                            <div class="card-body"></div>
+                            <div class="card-image"><img src="assets/images/bandcamp.jpeg" class="img-square"></div>
+                            <div class="card-body">
+                              <img src="assets/svg/bandcamp.svg" class="icon" />
+                            </div>
                           </a>
                           <div class="card-footer"></div>
                         </div>
                       </div>
                       <div class="col">
                         <div class="card">
-                          <div class="card-header tiny text-uppercase text-muted">Buy: <b>Apparel</b></div>
+                          <div class="card-header tiny text-uppercase text-muted pb-1">Listen: <b>Mixes</b></div>
                           <a href="">
+                            <div class="card-image"><img src="assets/images/mixcloud.jpeg" class="img-square"></div>
+                            <div class="card-body">
+                              <img src="assets/svg/mixcloud.svg" class="icon" />
+                            </div>
+                          </a>
+                          <div class="card-footer"></div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-header tiny text-uppercase text-muted pb-1">Buy: <b>Apparel</b></div>
+                          <a href="">
+                            <div class="card-image">
+                              <img src="assets/images/shop.jpeg" class="img-landscape" alt="" />
+                            </div>
                             <div class="card-body"></div>
                           </a>
                           <div class="card-footer"></div>
@@ -328,7 +336,7 @@
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/scripts.js"></script>
-    <script type="text/javascript">
+    <scripts type="text/javascript">
       $(window).scroll(function() {
         var fromTopPx = 60; // distance to trigger
         var scrolledFromtop = jQuery(window).scrollTop();
@@ -338,6 +346,6 @@
           $('.navbar').removeClass('shadow-sm');
         }
       });
-    </script>
+    </scripts>
   </body>
 </html>
