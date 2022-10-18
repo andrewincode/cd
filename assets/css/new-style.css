@@ -1,3 +1,5 @@
+.hide { display: none; }
+
 body {
   background-color: rgba(0, 0, 0, 0.375);
 }
@@ -9,14 +11,14 @@ body {
 
 /* HEADER  */
 
-.navbar-brand span.site-name { font-family: 'Permanent Marker', serif; }
-	.navbar-brand.h1 span.site-name {
-		font-size: 24px !important;
-		line-height: 27px !important;
+span.site-name { font-family: 'Permanent Marker', serif; }
+	span.site-name {
+		font-size: 24px;
+		line-height: 27px;
 	}
-	.navbar-brand.h1 span.site-tagline {
-		font-size: 21px !important;
-		line-height: 36px !important;
+	span.site-tagline {
+		font-size: 21px;
+		line-height: 36px;
 		font-family: var(--bs-body-font-family);
 	}
 
@@ -24,3 +26,46 @@ body {
 /* FOOTER */
 
 footer p img { margin-top: -5px; }
+
+
+
+
+/********************
+ * MEDIA QUERIES
+ ********************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+/* sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.tiny-md { font-size: 0.66em !important; line-height: 0.8em !important; }
+	.text-md-uppercase { text-transform: uppercase; }
+}
+
+/* lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
