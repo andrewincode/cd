@@ -129,138 +129,154 @@
 }
 
 .mdc-component__cards .mdc-card {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 .mdc-component__cards .mdc-card__subtitle {
-color: #707070;
+  color: #707070;
 }
 .mdc-component__cards .demo-card__avatar {
-background: #bdbdbd;
+  background: #bdbdbd;
 }
 .mdc-component__cards .mdc--theme-primary {
-background-color: #000000;
-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .mdc-component__cards .mdc--theme-secondary {
-background-color: #d20000;
-color: #ffffff;
+  background-color: #d20000;
+  color: #ffffff;
 }
 
 .mdc-component__cards .material-image .material-image__background {
-fill: #000000;
+  fill: #000000;
 }
 
 .mdc-component__cards .material-image .material-image--shape-circle,
 .mdc-component__cards .material-image .material-image--shape-triangle {
-fill: #000000;
+  fill: #000000;
 }
 
 .mdc-component__cards .material-image .material-image--shape-intersection {
-fill: #000000;
+  fill: #000000;
 }
 
 .mdc-component__cards .mdc-button--raised.mdc--theme-primary.mdc-ripple-upgraded::after {
-background-color: rgba(255, 255, 255, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 .mdc-component__cards .mdc-button--raised.mdc--theme-secondary.mdc-ripple-upgraded::after {
-background-color: rgba(255, 255, 255, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 .mdc-component__menu .mdc-toolbar {
-background-color: #d20000;
+  background-color: #d20000;
 }
 .mdc-component__menu .mdc-backdrop {
-background-color: rgba(0, 0, 0, .50);
+  background-color: rgba(0, 0, 0, .50);
 }
 .mdc-component__menu .mdc-list-item.mdc-ripple-upgraded::before,
 .mdc-component__menu .mdc-list-item.mdc-ripple-upgraded::after {
-background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .mdc-component__menu .mdc-permanent-drawer .mdc-permanent-drawer--selected::before,
 .mdc-component__menu .mdc-permanent-drawer .mdc-list-item:active::before {
-background-color: #000000;
+  background-color: #000000;
 }
 .mdc-component__menu .material-image__background {
-fill: #000000;
+  fill: #000000;
 }
 
 .mdc-component__menu .material-image--shape-circle,
 .mdc-component__menu .material-image--shape-triangle {
-fill: #000000;
+  fill: #000000;
 }
 
 .mdc-component__menu .material-image--shape-intersection {
-fill: #000000;
+  fill: #000000;
 }
 .mdc-component__textfield .mdc-textfield--theme-primary .mdc-textfield__label {
-color: #000000;
+  color: #000000;
 }
 
 .mdc-component__textfield .mdc-textfield--theme-primary .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus {
-border-color: #000000;
+  border-color: #000000;
 }
 
 .mdc-component__textfield .mdc-textfield--theme-secondary .mdc-textfield__label {
-color: #d20000;
+  color: #d20000;
 }
 
 .mdc-component__textfield .mdc-textfield--theme-secondary .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus {
-border-color: #d20000;
+  border-color: #d20000;
 }
 
 .mdc-component__toolbar .app-bar {
-background-color: #000000;
+  background-color: #000000;
 }
 .mdc-component__toolbar .material-icons {
-color: #ffffff;
+  color: #ffffff;
 }
 .mdc-component__toolbar main {
-background-color: white;
+  background-color: white;
 }
+.mdc--theme-flat {
+  background-color: inherit;
+  color: inherit;
+}
+.mdc--theme-flat-secondary {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+  .mdc--theme-flat-secondary * {
+    color: #ffffff !important;
+  }
 .mdc--theme-primary {
-background-color: #000000;
-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 .mdc--theme-secondary {
-background-color: #d20000;
-color: #ffffff;
+  background-color: #d20000;
+  color: #ffffff;
+}
+
+.mdc--theme-white {
+  background-color: #fff;
+  color: #000;
 }
 .mdc-component__toolbar .mdc--theme-primary {
-background-color: #000000;
-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .mdc-component__toolbar .mdc--theme-secondary {
-background-color: #d20000;
-color: #ffffff;
+  background-color: #d20000;
+  color: #ffffff;
 }
 
 .mdc-component__toolbar .material-image .material-image__background {
-fill: #980000;
+  fill: #980000;
 }
 
 .mdc-component__toolbar .material-image .material-image--shape-circle,
 .mdc-component__toolbar .material-image .material-image--shape-triangle {
-fill: #ff5030;
+  fill: #ff5030;
 }
 
 .mdc-component__toolbar .material-image .material-image--shape-intersection {
-fill: #980000;
+  fill: #980000;
 }
 
 .mdc-component__toolbar .mdc-icon-toggle::before,
 .mdc-component__toolbar .mdc-icon-toggle::after {
-background-color: rgba(255, 255, 255, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 .mdc-component__toolbar .mdc-fab.mdc--theme-primary.mdc-ripple-upgraded::after {
-background-color: rgba(255, 255, 255, 0.16);
+  background-color: rgba(255, 255, 255, 0.16);
 }
 
 .mdc-component__toolbar .mdc-fab.mdc--theme-secondary.mdc-ripple-upgraded::after {
-background-color: rgba(255, 255, 255, 0.16);
+  background-color: rgba(255, 255, 255, 0.16);
 }
   

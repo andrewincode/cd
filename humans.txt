@@ -1,7 +1,7 @@
 /* TEAM */
 
 Developer: Andrew St. Bernard
-Contact(Gmail) : andrew.st.bernard
+Contact(Gmail): andrew.st.bernard
 Location: Toronto, Ontario, Canada
                             
 /* SITE */
