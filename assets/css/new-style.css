@@ -4,6 +4,7 @@ body {
   background-color: rgba(0, 0, 0, 0.375);
   z-index: 10;
 }
+.border-end-secondary { border-right: 3px solid #d20000; }
 
 /* FONTS */
 
@@ -30,7 +31,6 @@ span.site-name { font-family: 'Permanent Marker', serif; }
 		font-family: var(--bs-body-font-family);
 	}
 .event-tonight { opacity: 0.8; }
-	.event-tonight .card { border-right: 3px solid #d20000; }
 
 /* MAIN */
 
