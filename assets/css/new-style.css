@@ -5,6 +5,12 @@ body {
   z-index: 10;
 }
 .border-end-secondary { border-right: 3px solid #d20000; }
+.btn {
+	-webkit-transition: background 5s; /* For Safari 3.0 to 6.0 */
+	-webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 5s; /* For modern browsers */
+    transition: color 2s; /* For modern browsers */
+}
 
 /* FONTS */
 
@@ -30,7 +36,18 @@ span.site-name { font-family: 'Permanent Marker', serif; }
 		line-height: 36px;
 		font-family: var(--bs-body-font-family);
 	}
-.event-tonight { opacity: 0.8; }
+.event-tonight { opacity: 1; }
+	.event-tonight .card {
+		border-left: none;
+		background: rgb(255,255,255);
+		background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+		background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+		background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+	}
+	.event-tonight .card:hover,
+	.event-tonight .card:focus { background: #ffffff !important; opacity: 0.8; }
+	.event-tonight .tiny { line-height: 1em !important; }
 
 /* MAIN */
 
