@@ -14,6 +14,7 @@ body {
 
 /* FONTS */
 
+.mdc-text--secondary { color: #d20000; }
 .bold, .strong { font-weight: bold !important; }
 .tiny { font-size: 0.66em !important; }
 .icon-animate { position: relative; height: 50px; }
@@ -37,6 +38,7 @@ span.site-name { font-family: 'Permanent Marker', serif; }
 		font-family: var(--bs-body-font-family);
 	}
 .event-tonight { opacity: 1; }
+	.event-tonight a { text-decoration: none; }
 	.event-tonight .card {
 		border-left: none;
 		background: rgb(255,255,255);
@@ -87,6 +89,7 @@ footer p img { margin-top: -5px; }
 	.text-sm-end { text-align: right; }
 	.text-sm-white { color: #ffffff !important; }
 	header span.site-name { font-size: 48px !important; line-height: 36px !important; }
+	.mdc-top-app-bar--fixed-adjust { padding-top: 15px; }
 }
 
 /* md` applies to small devices (landscape phones, less than 768px) */

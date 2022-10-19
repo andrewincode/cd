@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Corey Dawkins: Toronto DJ &amp; Producer</title>
     <meta name="description" content="">
+    <meta name="keywords" content="">
     <link rel="author" href="humans.txt" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
@@ -21,27 +22,29 @@
         <div class="container-fluid">
           <div class="row row-cols row-cols-lg-2 mdc-top-app-bar__row g-0 text-center vh-md-100">
             <div class="col mdc-top-app-bar__section mdc-top-app-bar__section--align-start text-lg-start h-md-100 p-0">
-              <div class="mdc-top-app-bar__title h1 m-0 p-0 pt-5 p-lg-0 w-100 d-flex flex-column h-md-100">
-                <a href="https://coreydawkins.ca" class="text-reset text-decoration-none text-sm-end text-sm-white">
-                  <span class="site-name d-block d-lg-inline m-0 p-0">Corey<br class="d-md-none"> Dawkins</span>
-                  <span class="site-tagline pt-2 pt-md-0 ms-lg-2 tiny-md text-md-uppercase d-block d-lg-inline"><span class="d-none d-md-inline">Toronto </span>DJ <span class="d-inline d-md-none">&plus;</span><span class="d-none d-md-inline">&amp;</span> Producer</span>
+              <div class="mdc-top-app-bar__title h1 m-0 p-0 pt-5 p-md-0 pt-md-2 w-100 d-flex flex-column h-md-100">
+                <a href="https://coreydawkins.ca" class="text-reset text-decoration-none text-sm-end text-md-start text-sm-white">
+                  <span class="site-name d-block d-md-inline m-0 p-0">Corey<br class="d-md-none"> Dawkins</span>
+                  <span class="site-tagline pt-2 pt-md-0 ms-lg-2 tiny-md text-md-uppercase d-block d-md-inline"><span class="d-none d-md-inline">Toronto </span>DJ <span class="d-inline d-md-none">&plus;</span><span class="d-none d-md-inline">&amp;</span> Producer</span>
                 </a>
-                <div class="d-grid gap-2 d-block d-lg-none mt-auto">
+                <div class="d-grid gap-2 d-block d-md-none mt-auto">
                   <div class="event-tonight">
-                    <div class="card mt-5 border-end-secondary">
-                      <div class="card-body text-end p-2">
-                        <div class="title tiny text-uppercase">Tonight in Toronto!</div>
-                        <div class="event-venue strong display-6">3030 Dundas</div>
-                        <div class="details">
-                          <p class="card-text event-cost strong tiny text-uppercase">10:00pm, No Cover</p>
+                    <a href="#" class="text-reset">
+                      <div class="card mt-5 border-end-secondary">
+                        <div class="card-body text-end p-2">
+                          <div class="title tiny text-uppercase">Tonight in Toronto!</div>
+                          <div class="event-venue strong display-6 mdc-text--secondary">3030 Dundas</div>
+                          <div class="details">
+                            <p class="card-text event-cost strong tiny text-uppercase">10:00pm, No Cover</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <a href="hire.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong border-end-secondary">hire</a>
                   <a href="shop.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong border-end-secondary">shop</a>
                   <a href="experience.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong mb-2 border-end-secondary">experience</a>
-                  <div class="icon-animate"><span class="material-symbols-outlined text-white">expand_more</span></div>
+                  <div class="icon-animate"><a href="#" class="scroll_down"><span class="material-symbols-outlined text-white">expand_more</span></a></div>
                 </div>
               </div>
             </div>
@@ -142,21 +145,21 @@
           </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-3 g-2 mt-0">
-          <div class="col">
+          <div class="col order-1">
             <div class="card mdc-card mdc-card--outlined">
               <div class="card-body mdc-card__content p-2">
                 <h6 class="card-title tiny text-uppercase text-muted">About</h6>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col order-3 order-lg-2">
             <div class="card mdc-card mdc-card--outlined">
               <div class="card-body mdc-card__content p-2">
                 <h6 class="card-title tiny text-uppercase text-muted">Online</h6>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col order-2 order-lg-3">
             <div class="card mdc-card mdc-card--outlined">
               <div class="card-body mdc-card__content p-2">
                 <h6 class="card-title tiny text-uppercase text-muted">Contact <span class="float-end text">416-389-1337</span></h6>
@@ -192,6 +195,13 @@
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="assets/js/mdc-style.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script>
+      $(".scroll_down").click(function() {
+        $('html,body').animate({
+          scrollTop: $("main").offset().top},
+          'slow');
+      });
+    </script>
     <!--
     <script type="text/javascript">
       $(window).scroll(function() {
