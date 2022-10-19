@@ -8,7 +8,13 @@ body {
 
 .bold, .strong { font-weight: bold !important; }
 .tiny { font-size: 0.66em !important; }
-
+.icon-animate { height: 50px; }
+.icon-animate span { position: absolute; animation: jumpInfinite 1.5s infinite; }
+@keyframes jumpInfinite {
+  0% { top: 0; }
+  50% { top: 10px; }
+  100% { top: 0; }
+}
 /* HEADER  */
 
 span.site-name { font-family: 'Permanent Marker', serif; }
@@ -22,9 +28,13 @@ span.site-name { font-family: 'Permanent Marker', serif; }
 		font-family: var(--bs-body-font-family);
 	}
 
+/* MAIN */
+
+main { margin-bottom: 120px }
 
 /* FOOTER */
 
+footer { position: fixed; bottom: 0; width: 100%; }
 footer p img { margin-top: -5px; }
 
 
@@ -57,12 +67,14 @@ footer p img { margin-top: -5px; }
 
 /* md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+	.h-md-100 { height: 100% !important; }
 	.vh-md-100 { height: 100vh !important; }
 	.tiny-md { font-size: 0.66em !important; line-height: 1em !important; }
 	.text-md-uppercase { text-transform: uppercase; }
 	.bg-md-black { background-color: #000000; }
 	.text-md-white { color: #ffffff; }
-	.mdc-top-app-bar-md-sticky { position: sticky !important; }
+	.mdc-top-app-bar--md-sticky { position: sticky !important; }
+	.intro-image-md { background-image: url(../images/homepage-portrait.png); background-size: auto 100%; background-position-x: right; }
 }
 
 /* lg` applies to medium devices (tablets, less than 992px) */
