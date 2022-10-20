@@ -4,12 +4,22 @@ body {
   background-color: rgba(0, 0, 0, 0.375);
   z-index: 10;
 }
+.fs-48 { font-size: 48px !important; }
 .border-end-secondary { border-right: 3px solid #d20000; }
 .btn {
 	-webkit-transition: background 5s; /* For Safari 3.0 to 6.0 */
 	-webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
     transition: background 5s; /* For modern browsers */
     transition: color 2s; /* For modern browsers */
+}
+
+@use "@material/button";
+
+.custom-text-button,
+.custom-outlined-button {
+  --mdc-theme-white: #FEDBD0;
+  --mdc-theme-on-white: #442C2E;
+  @include button.ink-color(#84565E);
 }
 
 /* FONTS */
@@ -58,7 +68,8 @@ main { position: relative; margin-bottom: 140px; z-index: 100; }
 /* FOOTER */
 
 footer { position: fixed; z-index: 1; bottom: 0; width: 100%; }
-footer p img { margin-top: -5px; }
+footer .col.order-lg-2.col-lg-4 { margin-top: -8px; }
+footer p img { margin-top: -12px; }
 
 
 

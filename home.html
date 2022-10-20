@@ -27,7 +27,7 @@
                   <span class="site-name d-block d-md-inline m-0 p-0">Corey<br class="d-md-none"> Dawkins</span>
                   <span class="site-tagline pt-2 pt-md-0 ms-lg-2 tiny-md text-md-uppercase d-block d-md-inline"><span class="d-none d-md-inline">Toronto </span>DJ <span class="d-inline d-md-none">&plus;</span><span class="d-none d-md-inline">&amp;</span> Producer</span>
                 </a>
-                <div class="d-grid gap-2 d-block d-md-none mt-auto">
+                <div class="d-grid gap-2 d-block d-md-none mb-3 mt-auto">
                   <div class="event-tonight">
                     <a href="#" class="text-reset">
                       <div class="card mt-5 border-end-secondary">
@@ -43,8 +43,8 @@
                   </div>
                   <a href="hire.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong border-end-secondary">hire</a>
                   <a href="shop.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong border-end-secondary">shop</a>
-                  <a href="experience.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong mb-2 border-end-secondary">experience</a>
-                  <div class="icon-animate"><a href="#" class="scroll_down"><span class="material-symbols-outlined text-white">expand_more</span></a></div>
+                  <a href="experience.html" type="button" class="btn btn-outline-light btn-lg text-uppercase strong mb-1 border-end-secondary">experience</a>
+                  <div class="icon-animate"><a href="#" class="scroll_down"><span class="material-symbols-outlined fs-48 text-white">expand_more</span></a></div>
                 </div>
               </div>
             </div>
@@ -163,6 +163,68 @@
             <div class="card mdc-card mdc-card--outlined">
               <div class="card-body mdc-card__content p-2">
                 <h6 class="card-title tiny text-uppercase text-muted">Contact <span class="float-end text">416-389-1337</span></h6>
+                <form class="row g-2 form-clean">
+                  <div class="col-12">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                      <span class="mdc-text-field__ripple"></span>
+                      <span class="mdc-floating-label" id="my-label-id">phone number/span>
+                      <input class="form-control form-control-sm mdc-text-field__input" list="contactReasonOptions" type="text" aria-labelledby="my-label-id" id="contactReason">
+                      <span class="mdc-line-ripple"></span>
+                    </label>
+                    <input class="form-control form-control-sm hide" list="contactReasonOptions" id="contactReason" placeholder="Enter subject*" />
+                    <datalist id="contactReasonOptions">
+                      <option value="I require DJ Services" />
+                      <option value="I require Music Production" />
+                      <option value="I require Event Promotion" />
+                      <option value="I'm interested in Collaboration" />
+                      <option value="I'm a Media Representative" />
+                      <option value="I have a General Enquiry" />
+                      <option value="I found an Issue on the Website" />
+                    </datalist>
+                  </div>
+                  <div class="col-6">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                      <span class="mdc-text-field__ripple"></span>
+                      <span class="mdc-floating-label" id="my-label-id">first name</span>
+                      <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                      <span class="mdc-line-ripple"></span>
+                    </label>
+                  </div>
+                  <div class="col-6">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                      <span class="mdc-text-field__ripple"></span>
+                      <span class="mdc-floating-label" id="my-label-id">last name</span>
+                      <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                      <span class="mdc-line-ripple"></span>
+                    </label>
+                  </div>
+                  <div class="col-6">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                      <span class="mdc-text-field__ripple"></span>
+                      <span class="mdc-floating-label" id="my-label-id">phone number</span>
+                      <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                      <span class="mdc-line-ripple"></span>
+                    </label>
+                  </div>
+                  <div class="col-6">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                      <span class="mdc-text-field__ripple"></span>
+                      <span class="mdc-floating-label" id="my-label-id">email address</span>
+                      <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                      <span class="mdc-line-ripple"></span>
+                    </label>
+                  </div>
+                  <div class="col-12 d-grid">
+                    <button type="button" class="btn btn-sm btn-outline-primary hide">Continue</button>
+                    <div class="mdc-touch-target-wrapper">
+                      <button class="mdc-button mdc-button--touch mdc-button--raised">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__touch"></span>
+                        <span class="mdc-button__label">Continue</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -172,16 +234,16 @@
     <footer class="">
       <div class="container-fluid">
         <div class="row row-cols-1 row-cols-lg-2 pt-2 pb-1 text-center opacity-50">
-          <div class="col">
+          <div class="col order-lg-2 col-lg-4">
             <span class="site-name text-white"><small>Corey Dawkins</small></span>
           </div>
-          <div class="col">
+          <div class="col order-lg-1 col-lg-4">
             <p class="tiny m-0 mt-3 m-lg-0 text-light text-lg-start">
               &copy; 2022 Corey Dawkins. All rights reserved.
               <a class="inline-block ms-1 ps-2 border-start text-reset text-decoration-none" href="#">Terms of Use</a>
             </p>
           </div>
-          <div class="col">
+          <div class="col order-lg-3 col-lg-4">
             <p class="text-lg-end m-0 mt-1 mb-4 m-lg-0">
               <a class="" href="humans.txt"><img src="assets/images/humanstxt-transparent-color.png" height="24" alt="coreydawkins.ca humans.txt file"></a>
             </p>
